@@ -1,0 +1,179 @@
+* {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.container {
+  height: 100%; 
+  margin: 20px;
+}
+
+.main {
+  background-color: #303030;
+  border-radius: 10px;
+  width: 350px; 
+  height: 350px;
+}
+
+
+.image {
+  background-color: #404040;
+  border-radius: 100vmin;
+  width: 11%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  margin: 10px;
+}
+
+.content h2 {
+  font-size: 1.75rem;
+}
+
+.content p {
+  opacity: 0.5;
+  font-size: .9rem;
+  text-align: left;
+}
+
+.rating ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+}
+
+button {
+  cursor: pointer;
+}
+
+.rating button {
+  aspect-ratio: 1;
+  height: 2.5rem;
+  border-radius: 100vmin; 
+  background-color: #404040;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.submit button {
+  width: 100%;
+  background: rgb(255,120,0);
+  color: #fff;
+  border-radius: 100vmin;
+  height: 3rem;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+}
+
+.rating button:hover {
+  background-color: #707070;
+}
+
+.rating button:focus {
+  background-color: rgb(255, 120, 0);
+}
+
+.submit button:hover {
+  background-color: #fff;
+  color: rgb(255, 120, 0);
+}
+
+.submit {
+  margin-top: 20px;
+}
+
+.rating {
+  margin-top: 30px;
+}
+
+.content {
+  margin-top: 10px;
+}
+
+.content p {
+  margin-top: 10px;
+}
+
+
+.message {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #303030;
+  border-radius: 10px;
+}
+
+.user-rating-msg {
+  background-color: #404040;
+  color: rgb(255, 120, 0);
+  margin-top: 20px;
+  border-radius: 100vmin;
+  padding: 2px 20px;
+}
+
+.thank-you-msg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 25px;
+}
+
+.thank-you-msg h1 {
+  font-size: 2rem;
+}
+
+.thank-you-msg p {
+  opacity: 0.5;
+  text-align: center;
+}
+
+.msg-display {
+  display: none;
+}
