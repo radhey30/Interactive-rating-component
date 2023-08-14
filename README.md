@@ -11,11 +11,6 @@ User is able to:
 - Interact with the component
 - Mobile responsive
 
-
-### Links
-
-Github: [URL](https://github.com/radhey30/Interactive-rating-component)
-
 ### Acknowledgements 
 
 Thanks to frontend mentor.
